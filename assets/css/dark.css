@@ -1,0 +1,10 @@
+:root[data-theme="dark"] .skeleton{background:linear-gradient(90deg,#26221c 25%,#332e26 37%,#26221c 63%);background-size:400% 100%}
+:root[data-theme="dark"] .card-fav{background:rgba(30,30,30,.92);color:#f5f0e6}
+:root[data-theme="dark"] .slider-btn{background:rgba(30,30,30,.9);color:#f5f0e6}
+:root[data-theme="dark"] .closed-notice{background:#3a3320;color:#ffe08a;border-color:#5c4d1f}
+:root[data-theme="dark"] .status-delivered{background:#16321c;color:#7ee29a}
+:root[data-theme="dark"] .status-preparing{background:#3a3320;color:#ffd76a}
+:root[data-theme="dark"] .status-on-the-way{background:#122a3f;color:#7fbfff}
+:root[data-theme="dark"] .status-received{background:#2a2140;color:#c0a8ff}
+:root[data-theme="dark"] .hero-content h1{color:#fff}
+:root[data-theme="dark"] .combo-banner h2,:root[data-theme="dark"] .page-hero h1{color:#fff}

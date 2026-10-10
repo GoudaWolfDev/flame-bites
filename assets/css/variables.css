@@ -1,0 +1,57 @@
+:root{
+  --red-primary:#DA291C;
+  --red-deep:#B3001B;
+  --red-bright:#E4002B;
+  --yellow-primary:#FFC72C;
+  --orange-accent:#FF8200;
+  --cream:#FFF8E7;
+  --black:#1A1A1A;
+  --white:#FFFFFF;
+  --grad-red:linear-gradient(135deg,#DA291C 0%,#FF8200 100%);
+  --grad-yellow:linear-gradient(135deg,#FFC72C 0%,#FF8200 100%);
+  --grad-hero:linear-gradient(135deg,rgba(179,0,27,.92),rgba(255,130,0,.78));
+  --bg:var(--cream);
+  --bg-elev:var(--white);
+  --bg-soft:#FFF1D6;
+  --text:var(--black);
+  --text-muted:#6b6357;
+  --border:#efe4cb;
+  --accent:var(--red-primary);
+  --accent-2:var(--yellow-primary);
+  --shadow-xs:0 1px 2px rgba(26,26,26,.06);
+  --shadow-sm:0 2px 8px rgba(26,26,26,.08);
+  --shadow-md:0 8px 24px rgba(26,26,26,.10);
+  --shadow-lg:0 18px 48px rgba(26,26,26,.16);
+  --radius-xs:8px;
+  --radius-sm:12px;
+  --radius:18px;
+  --radius-lg:28px;
+  --radius-pill:999px;
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:24px;
+  --sp-6:32px; --sp-7:48px; --sp-8:64px; --sp-9:96px;
+  --container:1240px;
+  --font-body:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  --font-head:'Lilita One','Bangers',var(--font-body);
+  --font-ar:'Cairo',var(--font-body);
+  --header-h:72px;
+  --topbar-h:38px;
+  --transition:.25s cubic-bezier(.4,0,.2,1);
+  --z-topbar:60; --z-header:70; --z-drawer:200; --z-modal:300; --z-toast:400;
+}
+html[dir="rtl"]{--font-body:'Cairo',system-ui,sans-serif;--font-head:'Lilita One','Cairo',sans-serif}
+
+:root[data-theme="dark"]{
+  --bg:#121212;
+  --bg-elev:#1e1e1e;
+  --bg-soft:#26221c;
+  --text:#f5f0e6;
+  --text-muted:#b7ad9c;
+  --border:#33302a;
+  --cream:#1a1a1a;
+  --white:#1e1e1e;
+  --black:#f5f0e6;
+  --shadow-xs:0 1px 2px rgba(0,0,0,.4);
+  --shadow-sm:0 2px 8px rgba(0,0,0,.45);
+  --shadow-md:0 8px 24px rgba(0,0,0,.5);
+  --shadow-lg:0 18px 48px rgba(0,0,0,.6);
+}

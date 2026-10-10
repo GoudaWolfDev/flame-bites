@@ -1,0 +1,12 @@
+html[dir="rtl"] body{font-family:var(--font-ar)}
+html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] h3,html[dir="rtl"] h4{font-family:'Cairo',var(--font-head)}
+html[dir="rtl"] .search-box .fa-magnifying-glass{inset-inline-start:auto;inset-inline-end:15px}
+html[dir="rtl"] .search-box input{padding:11px 40px 11px 14px}
+html[dir="rtl"] .fa-arrow-right,html[dir="rtl"] .fa-arrow-left{transform:scaleX(-1)}
+html[dir="rtl"] .breadcrumbs li:not(:last-child)::after{content:'\\'}
+html[dir="rtl"] .pw-toggle{inset-inline-end:auto;inset-inline-start:14px}
+html[dir="rtl"] .timeline{padding-inline-start:0;padding-inline-end:36px}
+html[dir="rtl"] .timeline::before{inset-inline-start:auto;inset-inline-end:10px}
+html[dir="rtl"] .timeline .tl::before{inset-inline-start:auto;inset-inline-end:-33px}
+html[dir="rtl"] .tracker{direction:rtl}
+html[dir="rtl"] .card-media .badges{align-items:flex-start}
